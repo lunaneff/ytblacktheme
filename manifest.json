@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "YTBlackTheme",
+  "author": "Laurin Neff",
+  "version": "1.0.1",
+  "description": "Changes the YouTube Website to have a black theme. Disable this extension to get the original theme.",
+  "icons": {
+    "144": "icons/blackyt-144.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.youtube.com/*"
+      ],
+      "css": [
+        "blacktheme.css"
+      ]
+    }
+  ]
+}

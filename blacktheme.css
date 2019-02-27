@@ -1,0 +1,16 @@
+div#container.style-scope.ytd-masthead, 
+ytd-browse.style-scope.ytd-page-manager,
+div#sections.style-scope.ytd-guide-renderer,
+div#footer.style-scope.ytd-guide-renderer,
+div#header.style-scope.ytd-multi-page-menu-renderer,
+ytd-active-account-header-renderer.style-scope.ytd-multi-page-menu-renderer,
+ytd-simple-menu-header-renderer.style-scope.ytd-multi-page-menu-renderer,
+ytd-multi-page-menu-renderer.dropdown-content.style-scope.ytd-popup-container
+div#sections.style-scope.ytd-multi-page-menu-renderer,
+ytd-post-renderer.style-scope.yt-horizontal-list-renderer,
+div#columns.style-scope.ytd-watch-flexy,
+ytd-watch-flexy.style-scope.ytd-page-manager.hide-skeleton,
+ytd-playlist-sidebar-renderer.style-scope.ytd-browse,
+div#header.style-scope.ytd-app {
+    background: black;
+}
