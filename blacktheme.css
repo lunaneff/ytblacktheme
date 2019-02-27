@@ -11,6 +11,16 @@ ytd-post-renderer.style-scope.yt-horizontal-list-renderer,
 div#columns.style-scope.ytd-watch-flexy,
 ytd-watch-flexy.style-scope.ytd-page-manager.hide-skeleton,
 ytd-playlist-sidebar-renderer.style-scope.ytd-browse,
-div#header.style-scope.ytd-app {
+div#header.style-scope.ytd-app,
+.header-bar,
+.scbrr-tabs,
+lazy-list,
+.menu-content {
     background: black;
+}
+
+.scbrr-tabs,
+lazy-list,
+.menu-content {
+    color: white;
 }
